@@ -1,6 +1,6 @@
 const utils = require("./utils.js")
 const chunkManager = require("./chunks.js")
-const wsServer = new WebSocket.Server({ port: 8080 })
+const wsServer = new WebSocket("wss://silver.cyclic.app")
 var usedBytes = 0
 var ubplayer = 0
 var ubchunks = 0
