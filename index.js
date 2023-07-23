@@ -1,4 +1,3 @@
-const WebSocket = require("ws")
 const utils = require("./utils.js")
 const chunkManager = require("./chunks.js")
 const wsServer = new WebSocket.Server({ port: 8080 })
